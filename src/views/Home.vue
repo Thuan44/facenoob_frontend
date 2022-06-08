@@ -44,7 +44,7 @@
           <hr />
 
           <!-- Courses -->
-          <div class="courses-container mt-4">
+          <!-- <div class="courses-container mt-4">
             <router-link
               :to="`/courses/${course.id}`"
               class="card-container text-decoration-none"
@@ -69,10 +69,10 @@
                 <p class="mb-0 course-description">{{ course.name.substring(0, 30) + '...' }}</p>
               </div>
             </router-link>
-          </div>
+          </div> -->
 
           <!-- Pagination -->
-          <div
+          <!-- <div
             v-if="courses.length > 0"
             class="pagination text-white mt-5 d-flex justify-content-center align-items-center"
           >
@@ -85,7 +85,7 @@
             <button @click="next" class="pagination-btn next-btn">
               <i class="fa-solid fa-caret-right"></i>
             </button>
-          </div>
+          </div> -->
         </main>
       </div>
     </div>
